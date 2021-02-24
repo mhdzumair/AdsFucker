@@ -24,10 +24,12 @@ function aquinAutoClick () {
         if (typeof adsWindow === 'undefined' || adsWindow == null) {
           adsWindow = window.open(element.getAttribute('href'), 'aquin')
           function closecheck () {
-            if (!adsWindow.closed) {
-              setTimeout(closecheck, 1000)
-              return
-            }
+            try {
+              if (!adsWindow.closed) {
+                setTimeout(closecheck, 1000)
+                return
+              }
+            } catch { }
             adsWindow = null
             setTimeout(() => {
               fuckingAquin = document.querySelectorAll('.advertise_title a')

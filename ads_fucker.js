@@ -56,3 +56,5 @@ if (IS_AQUIN) {
     } catch (e) { console.log(e) }
   }
 }
+
+document.body.style.border = '10px solid green'

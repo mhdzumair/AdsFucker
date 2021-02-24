@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Ads Fucker",
+  "version": "1.0.0",
+
+  "description": "Fuck the frastrating PTC ads web sites.",
+  "icons": {
+    "48": "logo_48.png",
+    "96": "logo_96.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "ads-fucker@mhdzumair",
+      "strict_min_version": "48.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.aquinads.com/DS_Process_ViewFixedAds.aspx?FixedAdsid=*",
+        "*://www.aquinads.com/DS_Process_ViewAds.aspx?Adsid=*",
+        "*://www.aquinads.com/DS_ViewAds.aspx"
+      ],
+      "js": ["ads_fucker.js"],
+      "all_frames": false
+    }
+  ]
+}

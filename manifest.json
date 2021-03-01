@@ -1,7 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Ads Fucker",
-  "version": "1.0.0",
+  "version": "1.0",
+  "developer": {
+    "name": "Mohamed Zumair",
+    "url": "https://addons.mozilla.org/en-US/firefox/user/15657968"
+  },
 
   "description": "Fuck the frastrating PTC ads web sites.",
   "icons": {

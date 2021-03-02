@@ -4,6 +4,12 @@
 > Fuck the frustrating PTC ads web sites.
 <br>
 
+
+## Download
+[Ads Fucker - Firefox Add-On Gallery](https://addons.mozilla.org/en-US/firefox/addon/ads-fucker)
+
+<br>
+
 ## Note
 ```
   * This add-on will not collect any of the user's data 

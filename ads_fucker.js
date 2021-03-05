@@ -39,10 +39,8 @@ function aquinAutoClick () {
           closecheck()
         }
       }
-    } catch (error) {
-      console.log(error)
+    } catch { }
     }
-  }
   fuckingAquin.forEach(aquinAds)
 }
 
@@ -53,7 +51,7 @@ if (IS_AQUIN) {
     aquinClose()
     try {
       document.querySelector('iframe').removeAttribute('src')
-    } catch (e) { console.log(e) }
+    } catch { }
   }
 }
 

@@ -9,8 +9,8 @@
 
   "description": "Fuck the frustrating Pay Per Click (PTC) ads web sites.",
   "icons": {
-    "48": "logo_48.png",
-    "96": "logo_96.png"
+    "48": "logos/logo_48.png",
+    "96": "logos/logo_96.png"
   },
 
   "applications": {

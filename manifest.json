@@ -25,7 +25,9 @@
       "matches": [
         "*://www.aquinads.com/DS_Process_ViewFixedAds.aspx?FixedAdsid=*",
         "*://www.aquinads.com/DS_Process_ViewAds.aspx?Adsid=*",
-        "*://www.aquinads.com/DS_ViewAds.aspx"
+        "*://www.aquinads.com/DS_ViewAds.aspx",
+        "*://adspayu.click/index.php?view=surfer&t=*",
+        "*://adspayu.click/index.php?view=ads"
       ],
       "js": ["ads_fucker.js"],
       "all_frames": false

@@ -1,7 +1,7 @@
 <h1><img align=center src="logo_128.png" alt="logo" /> Ads Fucker - Firefox Web Extesnion</h1>
 <br>
 
-> Fuck the frustrating PTC ads web sites.
+> Fuck the frustrating PTC ads websites.
 <br>
 
 
@@ -13,10 +13,10 @@
 ## Note
 ```
   * This add-on will not collect any of the user's data 
-  * I will not responsible for anything that may happen to your account.
+  * I will not be responsible for anything that may happen to your account.
   * You do it at your own risk and take the responsibility upon yourself.
-  * finaly, i will not promote any refrels. just publish my experimentals. You can also contribute too. 
-    If you have any issues or feature request, than open new issue. i'm so happy to answer. 
+  * finally, I will not promote any referrals. I Just publish my experimental work. You can also contribute too. 
+    If you have any issues or feature request, then open new issue. I'm so happy to answer. 
 ```
 <br>
 
@@ -29,7 +29,27 @@
 
 |  Website   | Functionality  |
 |-------------|----------------|
-|<a href="https://www.aquinads.com" target="_blank">Aquinads</a>|<ul><li>Auto ads click & close after finished.</li><li>Remove advertiser webpage iframe.</li></ul>|
+|[Aquinads](https://www.aquinads.com)|<ul><li>Auto ads click & close after finished.</li><li>Remove advertiser webpage iframe.</li></ul>|
+|[AdsPayU](https://www.adspayu.click) |<ul><li>Auto ads click & close after finished.</li><li>Remove advertiser webpage iframe.</li><li>Advertisement time hacked. <b>Please see the note about ad timer hack</b></li></ul>|
+<br>
+
+### Ad Timer Hack
+
+> **I will not trying to hack anything with PTC backend. i just only change values in browser**
+
+**Note:**
+
+  * The advertisement timer hack will change the time variable in frontend of the website. So captcha will show as soon as **Ads Fucker** change the time value. 
+  * If the ad time is bigger than, just wait for 2 3 seconds to solve the captcha.
+  * If the ad time is smaller than, you can click to solve as soon as captcha appeared.
+
+<br>
+
+### Future works
+
+* Post Explanation videos.
+* Add more sites to this list. Ex: neobux, star-click & much more...
+* Integrate ML API for solving captcha automatically.
 
 <br>
 

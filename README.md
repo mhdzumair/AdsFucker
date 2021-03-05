@@ -1,4 +1,4 @@
-<h1><img align=center src="logo_128.png" alt="logo" /> Ads Fucker - Firefox Web Extesnion</h1>
+<h1><img align=center src="logos/logo_128.png" alt="logo" /> Ads Fucker - Firefox Web Extesnion</h1>
 <br>
 
 > Fuck the frustrating PTC ads websites.

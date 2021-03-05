@@ -1,6 +1,11 @@
 <h1><img align=center src="logos/logo_128.png" alt="logo" /> Ads Fucker - Firefox Web Extesnion</h1>
 <br>
 
+![Price](https://img.shields.io/badge/Price-Free-brightgreen?style=plastic)
+![GitHub](https://img.shields.io/github/license/mhdzumair/ads_fucker?style=plastic) 
+![Mozilla Add-on](https://img.shields.io/amo/v/ads-fucker@mhdzumair?style=plastic) 
+![GitHub last commit](https://img.shields.io/github/last-commit/mhdzumair/ads_fucker?style=plastic)
+
 > Fuck the frustrating PTC ads websites.
 <br>
 

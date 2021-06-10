@@ -28,6 +28,9 @@
 ### What You can do with this.
 - You can automate some of task. like Auto click ads & close tab.
 - You can remove advertiser's website page
+- Completely Block External Website interference.
+- Remove Loading time.
+- Automatically connect to [Resolvo Pro](https://github.com/mhdzumair/ResolvoPro) (Captcha Solver Server) and solve the captcha.
 <br>
 
 ### Supported Websites & functions.
@@ -36,6 +39,9 @@
 |-------------|----------------|
 |[Aquinads](https://www.aquinads.com)|<ul><li>Auto ads click & close after finished.</li><li>Remove advertiser webpage iframe.</li></ul>|
 |[AdsPayU](https://www.adspayu.click) |<ul><li>Auto ads click & close after finished.</li><li>Remove advertiser webpage iframe.</li><li>Advertisement time hacked. <b>Please see the note about ad timer hack</b></li></ul>|
+|[star-clicks](https://www.star-clicks.com)|<ul><li>Auto ads click & close after finished.</li><li>Block Advertiser webpage.</li></ul>|
+|[vuexybux](www.vuexybux.com) <br><br> [imdbux](https://www.imdbux.com) <br><br> [argonclick](https://www.argonclick.com) <br><br> [challengebux](https://www.challengebux.com) <br> <br> [pidbux](https://www.pidbux.com) |<ul><li>Automatically Solve the captcha with power of the [Resolvo Pro](https://github.com/mhdzumair/ResolvoPro) </li><li>Custom Size captcha</li><li>Auto ads click & close after finished.</li><li>Remove advertiser webpage iframe.</li><li>Hack the loading time</li><li>document hasFocus check hacked</li></ul>|
+|[serfbux](https://www.serfbux.com)|<ul><li>Custom Size captcha</li><li>Auto ads click & close after finished.</li><li>Remove advertiser webpage iframe.</li><li>Hack the loading time</li><li>document hasFocus check hacked</li></ul>|
 <br>
 
 ### Ad Timer Hack
@@ -52,9 +58,9 @@
 
 ### Future works
 
-* Post Explanation videos.
-* Add more sites to this list. Ex: neobux, star-click & much more...
-* Integrate ML API for solving captcha automatically.
+- [ ] Post Explanation videos.
+- [x] Add more sites to this list. Ex: neobux, star-click & much more...
+- [x] Integrate ML API for solving captcha automatically.
 
 <br>
 

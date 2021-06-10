@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Ads Fucker",
-  "version": "1.1",
+  "version": "2.0",
   "developer": {
     "name": "Mohamed Zumair",
     "url": "https://github.com/mhdzumair/ads_fucker"
@@ -13,21 +13,81 @@
     "96": "logos/logo_96.png"
   },
 
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "notifications",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+
   "applications": {
     "gecko": {
       "id": "ads-fucker@mhdzumair",
-      "strict_min_version": "52.0"
+      "strict_min_version": "59.0"
     }
+  },
+
+  "page_action": {
+    "browser_style": true,
+    "default_icon": {
+      "19": "logos/logo_19.png",
+      "38": "logos/logo_38.png"
+    },
+    "default_title": "Ads Fucker",
+    "show_matches": [
+      "*://serfbux.com/account/serfing/view/*",
+      "*://serfbux.com/account/serfing",
+      "*://imdbux.com/viewads/*",
+      "*://imdbux.com/viewads",
+      "*://vuexybux.com/viewads/*",
+      "*://vuexybux.com/viewads",
+      "*://argonclick.com/viewads/*",
+      "*://argonclick.com/viewads",
+      "*://adspayu.click/index.php?view=surfer&t=*",
+      "*://adspayu.click/index.php?view=ads",
+      "*://www.aquinads.com/DS_Process_ViewFixedAds.aspx?FixedAdsid=*",
+      "*://www.aquinads.com/DS_Process_ViewAds.aspx?Adsid=*",
+      "*://www.aquinads.com/DS_ViewAds.aspx",
+      "*://challengebux.com/viewads/*",
+      "*://challengebux.com/viewads",
+      "*://www.star-clicks.com/portal/ads",
+      "*://www.neobux.com/v/?a=l&l=*",
+      "*://www.neobux.com/m/v/?vl=*",
+      "*://pidbux.com/viewads/*",
+      "*://pidbux.com/viewads"
+    ],
+    "default_popup": "popup/popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
   },
 
   "content_scripts": [
     {
       "matches": [
+        "*://serfbux.com/account/serfing/view/*",
+        "*://serfbux.com/account/serfing",
+        "*://imdbux.com/viewads/*",
+        "*://imdbux.com/viewads",
+        "*://vuexybux.com/viewads/*",
+        "*://vuexybux.com/viewads",
+        "*://argonclick.com/viewads/*",
+        "*://argonclick.com/viewads",
+        "*://adspayu.click/index.php?view=surfer&t=*",
+        "*://adspayu.click/index.php?view=ads",
         "*://www.aquinads.com/DS_Process_ViewFixedAds.aspx?FixedAdsid=*",
         "*://www.aquinads.com/DS_Process_ViewAds.aspx?Adsid=*",
         "*://www.aquinads.com/DS_ViewAds.aspx",
-        "*://adspayu.click/index.php?view=surfer&t=*",
-        "*://adspayu.click/index.php?view=ads"
+        "*://challengebux.com/viewads/*",
+        "*://challengebux.com/viewads",
+        "*://www.star-clicks.com/portal/ads",
+        "*://www.neobux.com/v/?a=l&l=*",
+        "*://www.neobux.com/m/v/?vl=*",
+        "*://pidbux.com/viewads/*",
+        "*://pidbux.com/viewads"
       ],
       "js": ["ads_fucker.js"],
       "all_frames": false

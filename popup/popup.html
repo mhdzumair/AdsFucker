@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 90%;
+        font: caption;
+        background-color: #f4f7f8;
+      }
+
+      p {
+        margin: 1em;
+      }
+
+      #content {
+        height: 90%;
+        margin: 2em;
+        /* border: .5em solid #DDE4E9; */
+        transition: background-color 0.2s ease-out;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>Active page:</p>
+    <div id="content"></div>
+    <p id="fuck"></p>
+    <script src="popup.js"></script>
+  </body>
+</html>
